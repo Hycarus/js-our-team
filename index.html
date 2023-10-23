@@ -27,18 +27,20 @@
 
   <body>
     
-    <div class="d-flex flex-column align-items-center " id="app">
+    <div class="d-flex flex-column align-items-center container" id="app">
         <h1 class="text-center my-4">Join our team</h1>
-        <div id="wrapper" class="d-flex flex-wrap">
-
-        </div>
         <div class="row"></div>
-        
-        <div class="d-flex flex-column d-none" id="input">
-          
+        <div class="d-flex flex-column w-50" id="input">
+          <label for="name">Insert name</label>
+          <input type="text" id="name">
+          <label for="role">Insert role</label>
+          <input type="text" id="role">
+          <label for="picture">Insert picture</label>
+          <input type="text" id="picture">
         </div>
-        <button id="invia" class="btn d-none btn-success my-3 fs-4">Invia</button>
-        <button class="btn d-none btn-danger my-3 fs-4" id="reset">reset</button>
+        <div>
+          <button id="invia" class="btn btn-success my-3 fs-4">Invia</button>
+        </div>
     </div>
 
     
