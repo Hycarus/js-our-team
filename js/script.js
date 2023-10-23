@@ -37,6 +37,7 @@
     ];
     for(const val in teamMember){
         printCol(teamMember[val]);
+        console.log(teamMember[val]);
     }
     function printCol(teamMember) {
         const col = document.createElement("div");
@@ -51,10 +52,9 @@
                   </p>
                   </div>
               </div>
-          `;
-          col.innerHTML = template;
-      
-          rowEl.append(col);
+            `;
+        col.innerHTML = template;
+        rowEl.append(col);
     }
 
     btn.addEventListener('click', function(){
